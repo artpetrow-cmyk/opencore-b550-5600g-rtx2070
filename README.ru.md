@@ -145,6 +145,17 @@ VSMC=<исходники VirtualSMC-1.3.8> LILU=<исходники Lilu-1.7.2>/
 - Обновление macOS заменяет запечатанную систему: после него заново `cpuname.sh`, `btfix.sh` и копия плагина драйвера
   NVIDIA в `/System`.
 
+## Благодарности
+
+- [NullMoth Systems](https://nullmothsystems.com/ru/) ([драйвер на GitHub](https://github.com/nullmoth/nvidia-macos-driver)) — за драйвер NVIDIA, без которого эта машина вообще бы не
+  работала. Поддержать автора: [buymeacoffee.com/nullmoth](https://buymeacoffee.com/nullmoth).
+- [Acidanthera](https://github.com/acidanthera) — OpenCore, Lilu, VirtualSMC, RestrictEvents и BlueToolFixup.
+- [AMD-OSX](https://github.com/AMD-OSX/AMD_Vanilla) — патчи ядра для AMD.
+- [OpenIntelWireless](https://github.com/OpenIntelWireless) (zxystd) — itlwm и kext'ы Bluetooth Intel.
+- [Mieze](https://github.com/Mieze/RTL8111_driver_for_OS_X) — драйвер RTL8111.
+- [dhinakg](https://github.com/dhinakg) — AMFIPass, [corpnewt](https://github.com/corpnewt/GenSMBIOS) — GenSMBIOS.
+- [Dortania](https://dortania.github.io/OpenCore-Install-Guide/) — руководства и образцы SSDT.
+
 ## Лицензия
 
 Файлы, написанные для этого репозитория (`tools/`, эта инструкция), — под лицензией BSD 3-Clause ([LICENSE](LICENSE)).

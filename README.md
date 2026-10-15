@@ -144,6 +144,17 @@ VSMC=<VirtualSMC-1.3.8 source> LILU=<Lilu-1.7.2 source>/Lilu bash tools/nmsensor
 - A macOS update replaces the sealed system: rerun `cpuname.sh`, `btfix.sh` and the NVIDIA driver's `/System`
   plugin copy afterwards.
 
+## Thanks
+
+- [NullMoth Systems](https://nullmothsystems.com) ([driver on GitHub](https://github.com/nullmoth/nvidia-macos-driver)) for the NVIDIA driver that makes this machine work at
+  all — support the author at [buymeacoffee.com/nullmoth](https://buymeacoffee.com/nullmoth).
+- [Acidanthera](https://github.com/acidanthera) for OpenCore, Lilu, VirtualSMC, RestrictEvents and BlueToolFixup.
+- [AMD-OSX](https://github.com/AMD-OSX/AMD_Vanilla) for the AMD kernel patches.
+- [OpenIntelWireless](https://github.com/OpenIntelWireless) (zxystd) for itlwm and the Intel Bluetooth kexts.
+- [Mieze](https://github.com/Mieze/RTL8111_driver_for_OS_X) for the RTL8111 driver.
+- [dhinakg](https://github.com/dhinakg) for AMFIPass, [corpnewt](https://github.com/corpnewt/GenSMBIOS) for GenSMBIOS.
+- [Dortania](https://dortania.github.io/OpenCore-Install-Guide/) for the guides and the SSDT samples.
+
 ## License
 
 The files written for this repository (`tools/`, this guide) are under the BSD 3-Clause license ([LICENSE](LICENSE)).

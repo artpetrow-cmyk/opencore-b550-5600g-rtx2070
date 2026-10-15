@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>NMSensors</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.nmsensors.NMSensors</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>NMSensors</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>NMSensors</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>local.nmsensors.NMSensors</string>
+			<key>IOClass</key>
+			<string>NMSensors</string>
+			<key>IOMatchCategory</key>
+			<string>NMSensors</string>
+			<key>IOPCIMatch</key>
+			<string>0x16301022 0x14501022 0x15d01022 0x14801022 0x14a41022 0x14d81022 0x14e81022</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Local build: AMD Zen CPU temperature for VirtualSMC, read-only.</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>as.vit9696.VirtualSMC</key>
+		<string>1.0.0</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>10.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>10.0.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>10.0.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>

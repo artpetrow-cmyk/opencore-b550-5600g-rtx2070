@@ -64,11 +64,12 @@ tools/nmsensors/                               исходники NMSensors.kext
    (`W00000000001`, `M0000000000000001`, нули, `112233445566`).
 2. **Число ядер.** Патчи ядра `algrey | Force cpuid_cores_per_package` содержат число ядер этого процессора (6).
    Поставьте своё, как описано в [AMD Vanilla patches](https://github.com/AMD-OSX/AMD_Vanilla).
-3. **Драйвер NVIDIA.** Установите [драйвер NullMoth](https://github.com/nullmoth/nvidia-macos-driver) (здесь 2.0.1).
-   Аргументы загрузки, `Kernel > Block > IONDRVSupport` и значение SIP взяты из его
-   [docs/HOW-IT-WORKS.md](https://github.com/nullmoth/nvidia-macos-driver/blob/main/docs/HOW-IT-WORKS.md). Исправления
-   поверх 2.0.1, которые стоят на этой машине, — в форке
-   [artpetrow-cmyk/nvidia-macos-driver](https://github.com/artpetrow-cmyk/nvidia-macos-driver).
+3. **Драйвер NVIDIA.** Установите [драйвер NullMoth](https://github.com/nullmoth/nvidia-macos-driver) (здесь 2.3.4,
+   раньше 2.0.1). Аргументы загрузки, `Kernel > Block > IONDRVSupport` и значение SIP взяты из его
+   [docs/HOW-IT-WORKS.md](https://github.com/nullmoth/nvidia-macos-driver/blob/main/docs/HOW-IT-WORKS.md). Исправления,
+   которые стоят на этой машине, — в форке
+   [artpetrow-cmyk/nvidia-macos-driver](https://github.com/artpetrow-cmyk/nvidia-macos-driver): ветка
+   `rtx2070-macos26-2.3.4` на 2.3.4, `rtx2070-macos26` на 2.0.1.
 
 ## Почему так настроено
 

@@ -65,11 +65,12 @@ quiet boot. Check the configuration with `ocvalidate` from the same OpenCore rel
    OpenCore's sample placeholders (`W00000000001`, `M0000000000000001`, zeros, `112233445566`).
 2. **CPU core count.** The `algrey | Force cpuid_cores_per_package` kernel patches carry this CPU's core count (6).
    Set yours, as described in the [AMD Vanilla patches](https://github.com/AMD-OSX/AMD_Vanilla).
-3. **The NVIDIA driver.** Install the [NullMoth driver](https://github.com/nullmoth/nvidia-macos-driver) (2.0.1 was
-   used here). The boot arguments, `Kernel > Block > IONDRVSupport` and the SIP value come from its
+3. **The NVIDIA driver.** Install the [NullMoth driver](https://github.com/nullmoth/nvidia-macos-driver) (2.3.4 is
+   used here; 2.0.1 before it). The boot arguments, `Kernel > Block > IONDRVSupport` and the SIP value come from its
    [docs/HOW-IT-WORKS.md](https://github.com/nullmoth/nvidia-macos-driver/blob/main/docs/HOW-IT-WORKS.md). The fixes
-   used on this machine on top of 2.0.1 are in the fork
-   [artpetrow-cmyk/nvidia-macos-driver](https://github.com/artpetrow-cmyk/nvidia-macos-driver).
+   used on this machine are in the fork
+   [artpetrow-cmyk/nvidia-macos-driver](https://github.com/artpetrow-cmyk/nvidia-macos-driver): branch
+   `rtx2070-macos26-2.3.4` on 2.3.4, `rtx2070-macos26` on 2.0.1.
 
 ## Configuration choices
 
